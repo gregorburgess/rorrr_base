@@ -17,6 +17,8 @@
 
 console.log('Hello World from Webpacker')
 
-import "./application.css";
-
-document.body.insertAdjacentHTML("afterbegin", "Webpacker works!");
+import "components/app/app.js";
+import "components/navbar/navbar.js";
+import "components/header/header.js";
+import "components/banner/banner.js";
+// document.body.insertAdjacentHTML("afterbegin", "Webpacker works!");

@@ -1,0 +1,6 @@
+.banner {
+  height: calc(100vh - 115px);
+  background-image: url("./static/banner.jpg");
+  background-size:cover;
+  background-position: center center;
+}

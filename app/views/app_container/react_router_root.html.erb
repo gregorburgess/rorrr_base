@@ -1,0 +1,10 @@
+<%#= render "components/app/app" do %>
+  <!-- <p>Hello from our first component!</p> -->
+<%# end %>
+
+<%= render "components/app/app" do %>
+  <%= render "components/navbar/navbar" do %>
+    <%= render "components/header/header" %>
+  <% end %>
+  <%= render "components/banner/banner" %>
+<% end %>

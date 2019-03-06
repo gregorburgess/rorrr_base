@@ -1,0 +1,4 @@
+.app {
+  min-height: calc(100vh - 15px);
+  background-color: yellow;
+}
